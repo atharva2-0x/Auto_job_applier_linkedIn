@@ -61,7 +61,7 @@ Note: Currently "openai" and "openai-like" api endpoints are supported.
 # llm_embedding_model = "nomic-embed-text-v1.5"
 
 # Do you want to stream AI output?
-stream_output = True                    # Examples: True or False. (False is recommended for performance, True is recommended for user experience!)
+stream_output = False                    # Examples: True or False. (False is recommended for performance, True is recommended for user experience!)
 '''
 Set `stream_output = True` if you want to stream AI output or `stream_output = False` if not.
 '''
